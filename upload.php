@@ -22,12 +22,25 @@
         
     </header>
     <main>
-        <h2>Search Memes</h2><br>
-        <form method="get" action="search.php"><br>
-        <input type="text" name="keyword" placeholder="Enter keyword" ><br>
-        <p>Tralalero Tralala</p><br>
-        <img src = "Tralalelo TraLaLa.jpg">
-        <button type = "submit">Search</button>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eligendi pariatur quisquam fugit excepturi perferendis est quae rerum aspernatur sint nisi, ipsam minus iusto, quia quo officiis? Error, incidunt veniam!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
         
     </main>
     <footer class = "Footer">

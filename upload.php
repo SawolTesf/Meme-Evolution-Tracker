@@ -22,26 +22,50 @@
         
     </header>
     <main>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eligendi pariatur quisquam fugit excepturi perferendis est quae rerum aspernatur sint nisi, ipsam minus iusto, quia quo officiis? Error, incidunt veniam!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum architecto minima harum quam nulla, veritatis, error commodi dolores at debitis animi nostrum corrupti qui doloribus fugit laborum nesciunt dignissimos?</p>
-        
+        <div><h1>📤 Upload Meme</h1></div>
+        <div class="upload_page">
+  <h2>Submit a New Meme</h2>
+
+  <form action="upload.php" method="post">
+    <!-- Meme Core Info -->
+    <fieldset>
+      <legend>Meme Info</legend>
+
+      <label for="meme_name">Meme Name:</label><br>
+      <input type="text" id="meme_name" name="meme_name" required><br><br>
+
+      <label for="origin_platform">Origin Platform:</label><br>
+      <input type="text" id="origin_platform" name="origin_platform"><br><br>
+
+      <label for="first_appearance">First Appearance Date:</label><br>
+      <input type="date" id="first_appearance" name="first_appearance"><br><br>
+
+      <label for="description">Description:</label><br>
+      <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+      <label for="image_link">Image or Video Link:</label><br>
+      <input type="text" id="image_link" name="image_link" placeholder="https://..."><br><br>
+    </fieldset>
+    <br>
+
+    <!-- Meme Variation Info -->
+    <fieldset>
+      <legend>First Variation</legend>
+
+      <label for="variation_type">Variation Type:</label><br>
+      <input type="text" id="variation_type" name="variation_type" placeholder="e.g., Text, Image, GIF"><br><br>
+
+      <label for="variation_date">Variation Date:</label><br>
+      <input type="date" id="variation_date" name="variation_date"><br><br>
+
+      <label for="platform_spread">Platform Where It Spread:</label><br>
+      <input type="text" id="platform_spread" name="platform_spread"><br><br>
+    </fieldset>
+    <br>
+
+    <button type="submit">Submit Meme</button><br><br>
+  </form>
+</div>
     </main>
     <footer class = "Footer">
     <div class = "info">

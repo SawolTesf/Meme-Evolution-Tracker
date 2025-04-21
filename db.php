@@ -1,7 +1,7 @@
 <?php
 $serverName = "localhost";
 $userName = "root";
-$password = "";
+$password = ""; // Set your database password here
 $dbname = "memetrackerdb";
 $conn = "";
 

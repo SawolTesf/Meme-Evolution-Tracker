@@ -1,21 +1,13 @@
 <?php
-require 'db.php';
-
 session_start();
-if (!isset($_SESSION['user_id'])) {
-    header('Location: login.php');
-    exit;
-}
-
-$result = $conn->query("SELECT meme_id, name, description FROM MEME WHERE is_approved = 1 ORDER BY meme_id DESC");
-
+require 'db.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Meme Wiki – Home</title>
+    <title>Meme Wiki – About</title>
     <style>
         * {
             margin: 0;
@@ -50,44 +42,29 @@ $result = $conn->query("SELECT meme_id, name, description FROM MEME WHERE is_app
             color: #ffffff;
         }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
+        .card {
             background: #1c1c1e;
-            margin-bottom: 1.5rem;
             padding: 1.5rem;
             border-left: 6px solid #25f4ee;
             border-radius: 5px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-            transition: transform 0.2s ease;
         }
 
-        li:hover {
-            transform: scale(1.01);
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
         }
 
-        li strong {
-            font-size: 1.2rem;
-            color: #fe2c55;
-        }
-
-        .button {
+        .back-link {
             display: inline-block;
-            margin-top: 0.8rem;
-            padding: 0.5rem 1rem;
-            background: #25f4ee;
-            color: #0f0f0f;
+            margin-top: 1.5rem;
+            color: #25f4ee;
             text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.95rem;
             font-weight: bold;
         }
 
-        .button:hover {
-            background: #20d9d2;
+        .back-link:hover {
+            text-decoration: underline;
         }
 
         .spacer {
@@ -101,16 +78,18 @@ $result = $conn->query("SELECT meme_id, name, description FROM MEME WHERE is_app
 
 <div class="content-wrapper">
     <div class="main">
-        <h2>Featured Memes</h2>
-        <ul>
-            <?php while ($row = $result->fetch_assoc()): ?>
-                <li>
-                    <strong><?= htmlspecialchars($row['name']) ?></strong><br>
-                    <?= nl2br(htmlspecialchars($row['description'])) ?><br>
-                    <a class="button" href="meme.php?id=<?= $row['meme_id'] ?>">View Details</a>
-                </li>
-            <?php endwhile; ?>
-        </ul>
+        <h2>About Meme Wiki</h2>
+        <div class="card">
+            <p><strong>Meme Wiki</strong> is a living archive of internet culture — dedicated to tracking, analyzing, and archiving memes as they rise and fall across platforms.</p>
+
+            <p>Each meme includes detailed info like origin platform, timeline, references, and even real-time Google Trends charts.</p>
+
+            <p>As a registered user, you can explore, and soon — contribute memes to the archive. Stay tuned for more updates!</p>
+
+            <p>Thanks for helping preserve internet folklore 💾🌐</p>
+
+            <a class="back-link" href="index.php">&larr; Back to Home</a>
+        </div>
     </div>
 </div>
 
